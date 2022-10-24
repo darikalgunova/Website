@@ -1,0 +1,29 @@
+.header__nav {
+    padding: 0 0 10px 85px;
+    }
+
+.nav__list {
+    display: flex;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFF;
+    list-style: none;
+  }
+  
+  .nav__item {
+    margin-right: 66px;
+  }
+  
+  .nav__item:last-child {
+    margin-right: 20;
+    }
+  
+  .nav__link {
+    font-size: 16px;
+    list-style: none;
+  }
+  
+  .nav__link:hover {
+    color: #8F00FF;
+  }
+  

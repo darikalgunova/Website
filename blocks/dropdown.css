@@ -1,0 +1,35 @@
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown:hover .dropdown__menu {
+    left: 0;
+    opacity: 1;
+    padding-top: 0;
+}
+
+.dropdown__menu {
+    position: absolute;
+    background: #EDEDED;
+    border-radius: 5px;
+    width: 160px;
+    top: 100%;
+    opacity: 0;
+    transition: opacity .4s;
+    left: -9999px;
+    font-size: 13px;
+    line-height: 21px;
+    color: #1E1F20;
+    padding: 15px 19px;
+}
+
+.dropdown__menu:before {
+    content: "";
+    display: block;
+    height: 30px;
+    left: 0;
+    right: 0;
+    top: -29px;
+}
+

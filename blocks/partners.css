@@ -1,0 +1,28 @@
+.partners {
+  background: #F4F5F5;
+  padding: 86px 0 108px;
+}
+
+.partners__title {
+  margin-bottom: 74px;
+  font-size: 48px;
+  line-height: 65px;
+}
+
+.partners__list {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 50px;
+  align-items: center;
+
+}
+
+.partners__item {
+  min-width: 206px;
+  flex-grow: 1;
+  margin-right: 88px;
+}
+
+.partners__item:nth-child(4n + 4) {
+  margin-right: 0;
+}

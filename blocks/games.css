@@ -1,0 +1,9 @@
+.games {
+  background: #fff; 
+  color: #303030;
+  padding: 98px 0 0px;
+}
+
+.games__container {
+  margin-bottom: 85px;
+}

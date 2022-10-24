@@ -1,0 +1,38 @@
+.controls__form {
+  display: flex;
+}
+
+.controls__form-title {
+  font-size: 18px;
+  line-height: 25px;
+  margin-right: 74px;
+}
+
+.controls__list {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.controls__item {
+  margin-bottom: 17px;
+  margin-right: 10px;
+}
+
+.controls__checkbox {
+  display: none;
+}
+
+.controls__checkbox:checked ~ .controls__tag {
+  background: #B9EAE4;
+}
+
+.controls__tag {
+  padding: 10px 24px;
+  border-radius: 35px;
+  background: #E7E7E7;
+  cursor: pointer;
+  color: #303030;
+  font-size: 13px;
+  line-height: 18px;
+}

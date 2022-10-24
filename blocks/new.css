@@ -1,0 +1,120 @@
+.new {
+  margin-bottom: 121px;
+}
+
+.new__title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 49px;
+  margin-bottom: 51px;
+  display: flex;
+  align-items: center;
+}
+
+.new__title::after {
+  content: "";
+  width: 42px;
+  height: 42px;
+  background: url(../image/Vector.png) center center no-repeat;
+  margin-left: 10px;
+}
+
+.new__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.new__item {
+  background-color: #fff;
+  border-radius: 5px;
+  overflow: hidden;
+  width: 362px;
+}
+
+.new__item:not(:last-child) {
+  margin-right: 22px;
+}
+
+.new__image-box {
+  height: 144px;
+  width: 100%;
+}
+
+.new__image {
+  background: #150A18;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+}
+
+.new__menu {
+  display: flex;
+  flex-direction: column;
+  padding: 36px 16px 26px 22px
+}
+
+.new__card-title {
+  margin: 0;
+  margin-bottom: 23px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  color: black;
+}
+
+.new__features {
+  display: flex;
+  margin-bottom: 23px;
+
+}
+
+.new__feature {
+  font-size: 16px;
+  line-height: 22px;
+  display: flex;
+  align-items: flex-start;
+  color: #666666;
+}
+
+.new__feature:not(:last-child) {
+  margin-right: 51px;
+}
+
+.new__ico {
+  margin-right: 6px;
+  margin-left: 6px;
+}
+
+.new__description {
+  margin: 0;
+  margin-bottom: 24.5px;
+  font-size: 14px;
+  line-height: 21px;
+  color: #303030;
+}
+
+.new__button {
+  display: flex;
+  align-self: flex-start;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  padding: 18px 29px;
+  cursor: pointer;
+  text-transform: uppercase;
+  color: #8F00FF;
+  background-color: #fff;
+  border: 1px solid #8F00FF;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.new__button:hover {
+  background: #741BBA;
+  color: #fff;
+}
+
+.new__item:not(:last-child) {
+  margin-right: 27px;
+}

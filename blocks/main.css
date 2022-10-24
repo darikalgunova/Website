@@ -1,0 +1,39 @@
+.main-content {
+
+    margin-bottom: 53px;
+}
+
+.wrapper--main::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    height: 1000px;
+    background: url(../image/main-bg-top.png) center center / cover no-repeat;
+    filter: grayscale(1);
+}
+
+.wrapper--main::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 200px;
+    height: 1000px;
+    background: url(../image/main-bg-bottom.png) center center / cover no-repeat;
+    filter: grayscale(1);
+}
+
+.wrapper--top::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    height: 412px;
+    background: url(../image/main-bg-top.png)
+     center center / cover no-repeat;
+     filter: grayscale(1);
+  }

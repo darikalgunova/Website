@@ -1,0 +1,51 @@
+.btn__form {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 32px;
+}
+
+
+.btn__reset {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  padding: 18px 40px;
+  cursor: pointer;
+  text-transform: uppercase;
+  color: #FFF;
+  border-radius: 5px;
+  border: none;
+  background-color: #2B2B2B;
+  margin-right: 17px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.btn__submit {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  padding: 18px 40px;
+  cursor: pointer;
+  text-transform: uppercase;
+  color: #FFF;
+  border-radius: 5px;
+  border: none;
+  background-color: #8F00FF;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.btn__reset:hover {
+  background: #8E8E8E;
+  color: #fff;
+}
+
+.btn__submit:hover {
+  background: #741BBA;
+  color: #fff;
+}
+
+.btn {
+  padding: 18px 58px;
+}

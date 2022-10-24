@@ -1,0 +1,90 @@
+.reviews {
+  padding-top: 100px;
+  background: #fff;
+}
+
+.reviews__list {
+  column-count: 2;
+  column-gap: 20px;
+}
+
+.reviews__item {
+  background: #F4F5F5;
+  border-radius: 5px;
+  display: inline-block;
+  margin-bottom: 17px;
+}
+
+.reviews-list_content {
+  padding: 31px 50px 31px 32px;
+}
+
+.reviews__head {
+  display: flex;
+  align-items: center;
+}
+
+.reviews__avatar {
+  width: 142px;
+  height: 142px;
+}
+
+.reviews__user {
+  margin-right: 22px;
+}
+
+.services-reviews__pagination {
+  margin-top: 76px;
+}
+
+.reviews-name {
+  color: #1A1B1E;
+  font-size: 24px;
+  line-height: 42px;
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+}
+
+.reviews-name::after {
+  content:"";
+  width: 30px;
+  height: 30px;
+  background: url(../image/vk-blue.png) 
+  center center no-repeat;
+  margin-left: 10px;
+}
+
+.reviews__title {
+  font-size: 30px;
+  line-height: 42px;
+  margin-bottom: 15px;
+}
+
+.reviews__text {
+  font-size: 16px;
+  line-height: 27px;
+  margin-bottom: 35px;
+}
+
+.reviews__date {
+  font-size: 14px;
+  line-height: 27px;
+}
+
+.reviews-game {
+  background: #17191C;
+  margin-top: 94px;
+}
+
+.content-reviews__title {
+  font-size: 48px;
+  line-height: 65px;
+  color: #FFF;
+  margin-top: 117px;
+}
+
+.reviews-game__container {
+  display: flex;
+  padding: 0;
+}

@@ -1,0 +1,25 @@
+.footer__container {
+    display: flex;
+    
+    align-items: center;
+    border-top: 1px solid #FFF;
+    border-color: rgb(255, 255, 255, 10%);
+    padding-top: 52px ;
+    padding-bottom: 50px;
+    color: #FFF;
+  }
+  
+  .footer__logo {
+    margin-right: 120px;
+  }
+  
+  .footer__contacts {
+    align-items: flex-end;
+    right: 0px;
+    top: 42px;
+  }
+  
+  .footer__nav {
+    padding-bottom: 15px;
+  }
+  

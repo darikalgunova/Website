@@ -1,0 +1,40 @@
+
+.footer__socials {
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: 74px;
+  }
+  
+  .socials__item {
+    margin-right: 0px;
+  }
+  
+  .socials__item:not(:last-child) {
+    margin-right: 10px;
+    }
+  
+  .socials__link {
+    display: inline-flex;
+    align-items: center;
+    width: 36px;
+    height: 36px;
+    background: center center / cover no-repeat;
+  }
+  
+  .socials__link--icon-tg {
+    background-image: url(../image/telegram.png);
+  }
+  
+  .socials__link--icon-vk {
+    background-image: url(../image/vk.png);
+  }
+  
+  .socials__link--icon-fb {
+    background-image: url(../image/f.png);
+  }
+  
+  .socials__link--icon-in {
+    background-image: url(../image/in.png);
+  }
+  

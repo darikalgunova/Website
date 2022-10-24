@@ -1,0 +1,21 @@
+.tag {
+    padding: 10px 24px;
+    border-radius: 35px;
+    background: #E7E7E7;
+    cursor: pointer;
+    color: #303030;
+    font-size: 13px;
+    line-height: 18px;
+    display: inline-block;
+}
+
+.reviews__tag {
+    background: #B9EAE4;
+}
+
+.reviews__tags {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5px;
+}
